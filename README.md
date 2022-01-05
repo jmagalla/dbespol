@@ -3,7 +3,7 @@
 Los siguiente ejercicios están dirigidos a la base de datos “classicmodels”. 
 Antes de intentar definir los procedures debe realizar lo siguiente:
 
-* añadir un atributo `numstars` de tipo `smallint` con `default 0` sobre `offices`.
+* añadir una columna de nombre `numstars` de tipo `smallint` con `default 0` sobre `offices`.
 
 ## Ejercicio 1: 
 
