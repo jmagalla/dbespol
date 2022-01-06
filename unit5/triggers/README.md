@@ -26,5 +26,4 @@ Defina un trigger que cuando cambie el estatus del `instructor` de ‘active’ 
 Defina un trigger que cuando se inserte un registro en `advisor` para un `instructor` y un `estudiante` se incremente el número de advisor en 1 del `instructor`.
 
 ## Recursos
-* `template.sql`: plantilla que incluye la definición de un stored procedure basico que retorna un resultset. 
-* `templatecursor.sql`: plantilla que incluye la definición de un stored procedure de ejemplo que contiene un cursor que itera un ResultSet. 
+* `template.sql`: plantilla que incluye la definición de un trigger básico. 
