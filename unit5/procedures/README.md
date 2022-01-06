@@ -6,9 +6,9 @@ Antes de intentar definir los procedures debe realizar lo siguiente:
 
 * añadir una columna de nombre `numstars` de tipo `smallint` con `default 0` sobre `offices`. Use la siguiente sentencia para agregar la columna
 
-```
-ALTER TABLE offices ADD COLUMN numstars SMALLINT DEFAULT 0;
-```
+    ```
+    ALTER TABLE offices ADD COLUMN numstars SMALLINT DEFAULT 0;
+    ```
 
 ## Ejercicio 1
 
