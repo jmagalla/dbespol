@@ -5,6 +5,8 @@ Antes de intentar definir los procedures debe realizar lo siguiente:
 
 * añadir un atributo `numadvisor` de tipo `smallint` con `default 0` sobre la tabla `instructor`.
 * añadir un atributo `status` de tipo `char(15)` con `default ‘’` sobre la tabla `instructor`.
+
+    Use las siguientes sentencias para agregar las columnas:
     ```
     ALTER TABLE instructor ADD COLUMN numadvisor SMALLINT DEFAULT 0;
     ALTER TABLE instructor ADD COLUMN status CHAR(15) DEFAULT '';

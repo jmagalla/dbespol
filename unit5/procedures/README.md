@@ -1,11 +1,12 @@
 # Ejercicios en clases de Stored Procedures
 
-Los siguiente ejercicios están dirigidos a la base de datos “classicmodels”. 
+Los siguientes ejercicios están dirigidos a la base de datos `classicmodels`. 
 
 Antes de intentar definir los procedures debe realizar lo siguiente:
 
-* añadir una columna de nombre `numstars` de tipo `smallint` con `default 0` sobre `offices`. Use la siguiente sentencia para agregar la columna
+* añadir una columna de nombre `numstars` de tipo `smallint` con `default 0` sobre `offices`. 
 
+    Use la siguiente sentencia para agregar la columna
     ```
     ALTER TABLE offices ADD COLUMN numstars SMALLINT DEFAULT 0;
     ```
